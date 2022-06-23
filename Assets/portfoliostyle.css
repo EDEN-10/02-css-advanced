@@ -1,0 +1,86 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+header.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: gainsboro;
+    padding: 5px 1% ;
+}
+
+header.main-header {
+    color: white;
+    background-color: gainsboro;
+}
+header.main-header nav a {
+    color: cadetblue;
+    text-decoration: gainsboro;
+    background: gainsboro;
+    position: relative; 
+    text-align: center;
+    
+}
+header.main-header nav a:not(:last-child){
+    margin-right: 7px;
+}
+
+header.main-header nav a:hover:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+}
+body {
+    background: beige;
+}
+img{
+    height: 300px;
+    width: auto;
+    padding: 7px; 
+    margin: 8px;
+    justify-content: space-between;
+}
+#first-image {
+    height: 300px ;
+    width: auto;
+    padding: 7px;
+    margin: 8px;
+}
+#images h3 {
+    font-family: sans-serif;
+}
+.left-selection {
+    display: flex;
+    padding-right: 20px;
+    border-right: 20px solid rgb(91, 90, 90);
+
+}
+.left-selection h1 {
+    flex-basis: 25%;
+
+}
+.left-selection section {
+    flex-basis: 65%;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    background-color: rgb(172, 173, 171);
+    text-align: center;
+}
+.link {
+    display: flex;
+    padding: 8px;
+}
+@media (max-width: 650px) {
+    .section-selector-1 {
+        background-color: burlywood;
+    }
+}
