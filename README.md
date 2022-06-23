@@ -1,7 +1,8 @@
 ## Description 
 
-##screenshot of my portfolio 
-![screenshot]
+##screenshot of my app 
+
+![screenshot] 
 
 ## link to application 
 
