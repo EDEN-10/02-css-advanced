@@ -1,6 +1,6 @@
-## Description 
+Eden's Portfolio
 
-##screenshot of my app 
+##screenshot of my portfolio
 
 ![screenshot] 
 
